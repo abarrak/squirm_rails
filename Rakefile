@@ -1,5 +1,6 @@
 require 'rake/clean'
 require 'rake/testtask'
+require_relative 'lib/tasks/your_engine_tasks.rake'
 
 CLEAN.include "pkg", "test/coverage", "doc", "*.gem"
 
